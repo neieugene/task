@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="header">
+      <ul class="header__menu">
+        <li class="header__menu__element"><a class="header__menu__element__a" href="#">Главная</a></li>
+        <li class="header__menu__element"><a class="header__menu__element__a" href="#">Новости</a></li>
+        <li class="header__menu__element"><a class="header__menu__element__a" href="#">Контакты</a></li>
+        <li class="header__menu__element"><a class="header__menu__element__a" href="#">О нас</a></li>
+      </ul>
+    </div>
+
+
+    <div class="wrapper">
+
+      <p align="center">
+        <form action="">
+          <input type="search" id="searchString" placeholder="поиск">
+          <input type="button" id="sendButton" value="найти">
+        </form>
+      </p>
+    
+      <div class="errors">  
+      </div>
+
+      <div class="carousel">
+        <button class="carousel__arrow carousel__arrow-prev" id="prevButton" disabled> < </button>
+
+        <div class="carousel__menu">
+          <ul class="carousel__menu__list" id="list">
+          </ul>
+        </div>
+
+        <button class="carousel__arrow carousel__arrow-next" id="nextButton"> > </button>
+      </div>
+
+    </div>
+
+
+    <div class="footer">
+      Task - 2018
+      <div class="footer__mobile">
+        Мобильная версия
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
